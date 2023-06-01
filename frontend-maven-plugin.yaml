@@ -1,0 +1,7 @@
+production:
+  includes:
+    - ./**
+  excludes:
+    - .git
+    - node_modules/**
+    - src/**

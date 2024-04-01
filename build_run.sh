@@ -6,6 +6,6 @@
 echo "RUNNING SPRING-BOOT BACKEND"
 lsof -ti :3000 | xargs kill
 
-echo "RUNNING REACT FRONTEND"
-npm --prefix src/main/js/frontend start &
+# echo "RUNNING REACT FRONTEND"
+ npm --prefix src/main/js/frontend start &
 
